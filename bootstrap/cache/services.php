@@ -33,9 +33,8 @@
     29 => 'Reliese\\Coders\\CodersServiceProvider',
     30 => 'Spatie\\LaravelIgnition\\IgnitionServiceProvider',
     31 => 'Spatie\\Permission\\PermissionServiceProvider',
-    32 => 'Spatie\\WebhookClient\\WebhookClientServiceProvider',
-    33 => 'App\\Providers\\AppServiceProvider',
-    34 => 'App\\Providers\\FortifyServiceProvider',
+    32 => 'App\\Providers\\AppServiceProvider',
+    33 => 'App\\Providers\\FortifyServiceProvider',
   ),
   'eager' => 
   array (
@@ -57,9 +56,8 @@
     15 => 'Reliese\\Coders\\CodersServiceProvider',
     16 => 'Spatie\\LaravelIgnition\\IgnitionServiceProvider',
     17 => 'Spatie\\Permission\\PermissionServiceProvider',
-    18 => 'Spatie\\WebhookClient\\WebhookClientServiceProvider',
-    19 => 'App\\Providers\\AppServiceProvider',
-    20 => 'App\\Providers\\FortifyServiceProvider',
+    18 => 'App\\Providers\\AppServiceProvider',
+    19 => 'App\\Providers\\FortifyServiceProvider',
   ),
   'deferred' => 
   array (

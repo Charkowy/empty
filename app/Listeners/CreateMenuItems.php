@@ -22,7 +22,7 @@ class CreateMenuItems
     public function handle(BuildingMenu $event): void
     {
         //Elimino todos los items que estan cargados por archivo de configuracion
-        $event->menu->menu = [];
+        //$event->menu->menu = [];
         $items_parent = MenuItem::whereNull('permission_id')
             ->orWhereIn('permission_id', auth()->user()->getAllPermissions()->pluck('id'))
             ->orderBy('position')
